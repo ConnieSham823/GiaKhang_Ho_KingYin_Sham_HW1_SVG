@@ -30,4 +30,9 @@ img, embed, object, video, picture {
 
  #logo {
     width: 100%;
+    align-items: center;
  }
+
+ h2 {
+   text-align: center;
+}
