@@ -1,0 +1,33 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0e0e0;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .icon-container div {
+    width: 20%;
+  }
+
+
+/* General Rules */
+
+img, embed, object, video, picture {
+    max-width: 100%;
+ }
+
+ p, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+ }
+
+ #logo {
+    width: 100%;
+ }
