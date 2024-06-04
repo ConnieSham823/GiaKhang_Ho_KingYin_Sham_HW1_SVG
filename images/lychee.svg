@@ -59,7 +59,7 @@
     }
 
     #lychee:hover {
-    filter: drop-shadow(30px 8px 20px rgb(98, 97, 97));
+    filter: drop-shadow(20px 6px 10px rgb(98, 97, 97));
     animation: bounce 2s infinite;
       }
       
@@ -78,9 +78,18 @@
         transform: translateY(-4px);
     }
     }
-
-
     </style>
+
+    <script>
+const lychee = document.querySelector("#lychee");
+
+function logIdlychee() {
+    console.log("User clicked on" + this.id);
+}
+
+lychee.addEventListener("click", logIdlychee);
+</script>
+
     <clipPath id="clippath">
       <rect class="cls-6" x="18.1" y="280" width="558.7" height="316.9"/>
     </clipPath>
