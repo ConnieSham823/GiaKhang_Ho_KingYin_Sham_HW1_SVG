@@ -58,13 +58,25 @@
     fill: pink;
     }
 
-    #lychee {
-      transition: filter 0.3s, transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    }
-
     #lychee:hover {
     filter: drop-shadow(30px 8px 20px rgb(98, 97, 97));
-    transform: translate(10px, -10px);
+    animation: bounce 2s infinite;
+      }
+      
+    @keyframes bounce {
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+    }
+
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
     }
 
 
