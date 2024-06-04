@@ -65,6 +65,17 @@
   fill: rgb(237, 188, 235);
 }
     </style>
+
+<script>
+const peach = document.querySelector("#peach");
+
+function logIdpeach() {
+    console.log("User clicked on" + this.id);
+}
+
+peach.addEventListener("click", logIdpeach);
+</script>
+
     <clipPath id="clippath">
       <rect class="cls-1" x="74.8" y="126.9" width="450.3" height="392.1"/>
     </clipPath>
